@@ -1,9 +1,19 @@
 # Razzaq.net
-<br> It's a property management system.
-<br> Here are some of the main features of APP:
-1. Rent Property
-2. Buy/Sell Property
-3. Packing and Moving services
-4. Investment
-   
-<br> Now we will discuss the Technologies used in this APP. It's built in Laravel and all the API's are REST API's. 
+---
+<br> Razzaq provides a suite of APIs to support property listing, search, and marketing for rental properties. It serves users, real estate agents, landlords, and developers. The platform supports advanced search, user authentication, listing management, and analytics.
+
+Authentication
+----
+- API Key: Required for access to any endpoint.
+- Endpoint: /api/auth/login
+- Method: POST
+- Parameters:
+  1. username: string
+  2. password: string
+
+Endpoints
+---
+1. Get Property Listings
+- Endpoint: /api/listings
+- Method: GET
+- Parameters:
