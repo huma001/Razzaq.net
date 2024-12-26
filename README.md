@@ -3,7 +3,7 @@
 <br> Razzaq provides a suite of APIs to support property listing, search, and marketing for rental properties. It serves users, real estate agents, landlords, and developers. The platform supports advanced search, user authentication, listing management, and analytics.
 
 Authentication
-----
+---
 - API Key: Required for access to any endpoint.
 - Endpoint: /api/auth/login
 - Method: POST
@@ -17,3 +17,9 @@ Endpoints
 - Endpoint: /api/listings
 - Method: GET
 - Parameters:
+  1. location: string (optional)
+  2. price_min: integer (optional)
+  3. price_max: integer (optional)
+  4. property_type: string (optional)
+  5. page: integer (optional)
+
