@@ -13,7 +13,7 @@ Authentication
 
 Endpoints
 ---
-1. Get Property Listings
+1. **Get Property Listings**
 - Endpoint: /api/listings
 - Method: GET
 - Parameters:
@@ -22,4 +22,6 @@ Endpoints
   3. price_max: integer (optional)
   4. property_type: string (optional)
   5. page: integer (optional)
+
+
 
