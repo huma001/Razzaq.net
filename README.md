@@ -23,5 +23,8 @@ Endpoints
   4. property_type: string (optional)
   5. page: integer (optional)
 
+![image](https://github.com/user-attachments/assets/a819159f-8352-43c2-ae63-315d78a1594b)
+
+
 
 
