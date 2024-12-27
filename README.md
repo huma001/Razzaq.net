@@ -10,6 +10,7 @@ Authentication
 - Parameters:
   1. username: string
   2. password: string
+  3. sign in: string
 
 Endpoints
 ---
